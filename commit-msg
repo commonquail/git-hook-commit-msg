@@ -41,4 +41,6 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     fi
 done < "$1"
 
+[[ $line_num -eq 0 ]] && error "empty commit message"
+
 exit $retval

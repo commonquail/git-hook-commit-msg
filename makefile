@@ -22,6 +22,7 @@ $(OUTDIR):
 
 $(ECODES): $(BIN)
 	./$< test/message/compliant 2>/dev/null
+	./$< test/message/empty 2>/dev/null; test $$? -ne 0
 	./$< test/message/non-compliant 2>/dev/null; test $$? -ne 0
 	touch $@
 
