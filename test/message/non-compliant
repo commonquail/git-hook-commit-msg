@@ -1,0 +1,5 @@
+this subject line is not capitalised, exceeds 50 characters, and ends with a period.
+The subject line is not followed by an empty line, to the detriment of
+git log --oneline.
+
+The message body contains a line that exceeds 72 characters, making it awkward to read in general and especially in terminals.

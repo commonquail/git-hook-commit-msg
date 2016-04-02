@@ -1,0 +1,19 @@
+# Comments and empty lines may appear before the subject line.
+
+
+This is the subject line; it is 50 characters long
+
+An empty line separates the subject line from the message body. For
+legibility, the subject line should aim to avoid exceeding 50
+characters; but that is a guideline more than a rule and is most helpful
+for establishing a practice of separating the subject line from the
+message body. The first letter is capitalised and there is no
+terminating period.
+
+The message body is any number of paragraphs after the subject line,
+each wrapped to 72 characters to facilitate comfortable terminal reading
+and quote indentation [1].
+
+[1] Single-line-references-such-as-URIs-may-ignore-the-72-character-line-length-limit
+
+# The 72 character line length limit does not apply to comments either, to facilitate file names.

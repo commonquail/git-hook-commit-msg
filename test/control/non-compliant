@@ -1,0 +1,5 @@
+- subject line exceeds 50 characters
+- subject line not capitalised
+- subject line terminated by punctuation
+- subject line followed by non-empty line
+- line 5 exceeds 72 characters
